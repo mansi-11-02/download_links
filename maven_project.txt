@@ -12,12 +12,12 @@ Tomcat download commands
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.93/bin/apache-tomcat-9.0.93.tar.gz
 
 tomcat-users.xml
-  <role rolename="manager-gui"/>
-  <role rolename="manager-script"/>
-  <role rolename="manager-jmx"/>
-  <role rolename="manager-status"/>
-  <user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
-  <user username="developer" password="developer" roles="manager-script"/>
-  <user username="tomcat" password="s3cret" roles="manager-gui"/>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="manager-jmx"/>
+<role rolename="manager-status"/>
+<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
+<user username="developer" password="developer" roles="manager-script"/>
+<user username="tomcat" password="s3cret" roles="manager-gui"/>
 
 
