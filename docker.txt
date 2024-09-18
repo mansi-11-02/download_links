@@ -1,0 +1,36 @@
+Launch instance - dockerhost
+
+> yum update -y
+> yum install docker -y
+> systemctl start, enable, status docker
+> docker info
+> docker pull httpd
+> docker pull ubuntu
+> docker image
+> docker ps -a
+> docker run -it --name web-app ubuntu:latest /bin/bash  ( Create a container)
+> exit
+> docker inspect web-app | less
+> id
+> docker start web-app
+> docker attach web-app
+
+You will directly enter the container if not run : docker start webapp and docker attach web-app
+In the container:
+
+> apt update -y
+> apt install apache2 -y
+> cd /var/www/html
+> cat > index.html
+> cd 
+> service apache2 start
+> exit
+> docker start web-app
+> docker attach web-app
+> service apache2 start
+> exit
+> curl http://ip-address
+
+#port forwarding
+> docker run -it --name webapp2 -p 8080:80 ubuntu:latest /bin/bash > allow port 8080 in security group
+Same steps as above for changing port 
