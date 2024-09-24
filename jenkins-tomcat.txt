@@ -20,4 +20,5 @@ tomcat-users.xml
 <user username="developer" password="developer" roles="manager-script"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
 
-
+Mount blob on azure virtual machine and ec2 instance
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-how-to-mount-container-linux?tabs=Ubuntu
