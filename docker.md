@@ -7,11 +7,11 @@ systemctl start, enable, status docker
 1.Using Dockerfile:
 
 ```yml
- docker pull ubuntu:latest
- systemctl start docker
+docker pull ubuntu:latest
+systemctl start docker
 systemctl enable docker
- docker pull ubuntu:latest
- vim Dockerfile.ap2
+docker pull ubuntu:latest
+vim Dockerfile.ap2
 ```
 paste the contents in the file
 ```yml
