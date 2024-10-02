@@ -10,7 +10,7 @@
 #### *Here incase of controller copy paste the public key of other two instances and paste the keys in the vim file and likewise do the same for other 2 instances to establish connection*
 
 ### *Controller*
-- systemctl start sshd 
+- systemctl restart sshd 
 - systemctl enable sshd
 
 #### *Use ping command to check if the connection is established between the instances and allow ICMP port in network security*
