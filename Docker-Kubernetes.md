@@ -6,7 +6,7 @@ Host EKS Cluster
 3. Create Roles, allow below permissions:
   AmazonEKSClusterPolicy,AmazonElasticContainerRegistryPublicFullAccess,IAMFullAccess
 4. Launch instance in terminal :
-   Install aws cli and configure aws
+Install aws cli and configure aws
 ```yml
 apt-get update -y
 apt install unzip -y
@@ -16,7 +16,7 @@ sudo ./aws/install
 aws configure
 ```
 Install EKS Tool
-``yml
+```yml
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
